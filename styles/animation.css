@@ -1,0 +1,23 @@
+/*Rotate setting icon animation*/
+@keyframes settingIcon {
+    0% {
+        transform: rotate(0deg);
+        color:rgb(127, 255, 0);
+    }
+    25% {
+        transform: rotate(45deg);
+        color:rgb(247, 195, 231);
+    }
+    50% {
+        transform: rotate(90deg);
+        color:yellow;
+    }
+    75% {
+        transform: rotate(135deg);
+        color:greenyellow;
+    }
+    100% {
+        transform: rotate(180deg);
+        color:rgb(127, 255, 0);
+    };
+    }
